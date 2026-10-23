@@ -1,2 +1,109 @@
-// Contenus modifiables : biographies, créations, prix et programmation.
-window.HC={artists:[{id:'nox',name:'NOX',discipline:'Art urbain · Sérigraphie',bio:'Des murs de Marseille aux feuilles de papier, NOX travaille la trace, l’accident et la répétition. Ses compositions abstraites empruntent aux affiches arrachées et aux signes croisés dans la rue. Pour HORS CADRE, il présente une série brute, imprimée en petites quantités.',products:[{name:'Fracture 01',price:45,desc:'Sérigraphie deux couleurs sur papier 300 g. Format A3, édition fictive de 30 exemplaires.',stock:true},{name:'Signal / 02',price:65,desc:'Composition graphique au format 50 × 70 cm. Tirage numéroté, non encadré.',stock:true},{name:'Traces',price:20,desc:'Fanzine de 32 pages. Dessins, textures et fragments de ville.',stock:false}]},{id:'mila',name:'MILA R.',discipline:'Photographie · Éditions',bio:'MILA R. photographie une ville à hauteur de regard. Façades, silhouettes et lumière de fin de journée composent un journal sensible de Marseille. Ses images en noir et blanc racontent ce qui se passe entre deux moments, loin des cartes postales.',products:[{name:'Dernière lumière',price:55,desc:'Tirage photographique noir et blanc, 30 × 40 cm, papier mat.',stock:true},{name:'Les heures bleues',price:28,desc:'Livre photo de 48 pages. Un parcours imaginaire dans Marseille.',stock:true},{name:'Nuit ouverte',price:75,desc:'Tirage photographique 40 × 60 cm. Édition fictive de 20 exemplaires.',stock:true}]},{id:'sacha',name:'SACHA K.',discipline:'Textile · Objets indépendants',bio:'SACHA K. brouille les frontières entre vêtement et support d’expression. À partir de formes simples, de tissus réemployés et de mots fragmentés, l’artiste fabrique des objets à porter au quotidien. Une collection pensée comme une extension de la rue.',products:[{name:'T-shirt Hors limites',price:35,desc:'T-shirt unisexe noir, imprimé vert fluo. Taille M pour cette démonstration.',stock:true},{name:'Tote Manifesto',price:22,desc:'Sac en toile écrue avec impression noire. Format 38 × 42 cm.',stock:true},{name:'Patch Libre',price:8,desc:'Écusson textile brodé, noir et vert. Format 8 × 8 cm.',stock:false}]}],program:[['16:00','Les portes s’ouvrent','Exposition & pop-up · Rencontrez NOX, MILA R. et SACHA K.','ART / RENCONTRES'],['18:00','SOLEA — warm-up','DJ set · Hip-hop, neo-soul & découvertes','DJ SET'],['20:00','LIGNE 13 — live','Performance rap · Une voix, des textes, la ville','LIVE RAP'],['22:00','AZUR B2B MADS','DJ set · UK garage, bass & rythmes hybrides, jusqu’à minuit','CLUB']]};
+// Données éditoriales de démonstration : noms fournis par l'organisatrice, textes et produits à valider.
+window.HC = {
+  "artists": [
+    {
+      "id": "enfan-de-palestine",
+      "name": "ENFAN DE PALESTINE",
+      "discipline": "Art graphique · Éditions",
+      "bio": "Un espace de présentation dédié à ENFAN DE PALESTINE. Le texte définitif, la démarche de l'artiste et les visuels seront ajoutés après validation. Pour cette maquette, les œuvres et les tarifs ci-dessous sont des exemples fictifs.",
+      "products": [
+        {
+          "name": "ÉDITION 01 / Print",
+          "price": 35,
+          "desc": "Affiche de démonstration au format A3. Visuel et prix à confirmer avec l'artiste.",
+          "stock": true
+        },
+        {
+          "name": "ÉDITION 02 / Poster",
+          "price": 45,
+          "desc": "Poster de démonstration au format 50 × 70 cm. Aucun stock réel associé.",
+          "stock": true
+        },
+        {
+          "name": "ÉDITION 03 / Zine",
+          "price": 18,
+          "desc": "Édition papier fictive. Description définitive à compléter.",
+          "stock": false
+        }
+      ]
+    },
+    {
+      "id": "bidules-eyewear",
+      "name": "BIDULES EYEWEAR",
+      "discipline": "Lunetterie créative · Accessoires",
+      "bio": "BIDULES EYEWEAR dispose ici d'un espace boutique dédié. Portrait, histoire de la marque, photos et références commerciales sont à renseigner avec ses éléments officiels. Les modèles présentés ci-dessous sont fictifs.",
+      "products": [
+        {
+          "name": "FRAME 01 / Démo",
+          "price": 65,
+          "desc": "Modèle de lunettes fictif pour visualiser la boutique. Caractéristiques et tarif à confirmer.",
+          "stock": true
+        },
+        {
+          "name": "FRAME 02 / Démo",
+          "price": 75,
+          "desc": "Variation de démonstration, sans référence commerciale réelle.",
+          "stock": true
+        },
+        {
+          "name": "ACCESSOIRE / Démo",
+          "price": 15,
+          "desc": "Étui fictif. Produit non disponible à la vente.",
+          "stock": false
+        }
+      ]
+    },
+    {
+      "id": "simplelife",
+      "name": "SIMPLELIFE",
+      "discipline": "Lifestyle · Textile · Objets",
+      "bio": "SIMPLELIFE prend place dans le pop-up HORS CADRE avec une page pensée comme un mini concept-store. Les images et les prix indiqués dans cette maquette sont des exemples à remplacer par les informations réelles des créations.",
+      "products": [
+        {
+          "name": "BABY TEE / Démo",
+          "price": 35,
+          "desc": "T-shirt graphique de démonstration. Taille, visuel et disponibilité à confirmer.",
+          "stock": true
+        },
+        {
+          "name": "KEYCHAIN / Démo",
+          "price": 5,
+          "desc": "Porte-clés de démonstration. Photographie et coloris à ajouter.",
+          "stock": true
+        },
+        {
+          "name": "PRINT / Démo",
+          "price": 25,
+          "desc": "Objet imprimé fictif pour présenter la grille produits.",
+          "stock": false
+        }
+      ]
+    }
+  ],
+  "program": [
+    [
+      "16:00",
+      "Les portes s’ouvrent",
+      "Exposition & pop-up · Découvrez ENFAN DE PALESTINE, BIDULES EYEWEAR et SIMPLELIFE.",
+      "ART / RENCONTRES"
+    ],
+    [
+      "18:00",
+      "SOLEA — warm-up",
+      "DJ set fictif · Hip-hop, neo-soul & découvertes",
+      "DJ SET"
+    ],
+    [
+      "20:00",
+      "LIGNE 13 — live",
+      "Performance fictive · Rap & textes",
+      "LIVE RAP"
+    ],
+    [
+      "22:00",
+      "AZUR B2B MADS",
+      "DJ set fictif · UK garage & bass, jusqu’à minuit",
+      "CLUB"
+    ]
+  ]
+};
