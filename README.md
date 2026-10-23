@@ -18,3 +18,12 @@ HTML/CSS/JavaScript natif pour une prévisualisation autonome, au lieu de la pil
 
 ## Vérification
 Syntaxe JavaScript vérifiée avec Node. Navigation, onglets et simulation d’achat vérifiés dans le navigateur. CSS responsive prévu à 760 px. Date et lieu restent à confirmer.
+
+## Refonte éditoriale (branche `refonte-editoriale-artistes`)
+- Logo de navigation agrandi, typographies Anton/Arimo/DM Mono, mise en page plus éditoriale.
+- Menu Pop-up avec accès direct aux pages **ENFAN DE PALESTINE**, **BIDULES EYEWEAR** et **SIMPLELIFE**.
+- Trois pages boutiques : produits entièrement fictifs, simulations d'achat uniquement, aucune affiliation ou vente réelle présumée.
+- Archives présentées en journal photographique : édition 001 à venir, édition 000 galerie de démonstration.
+- Les photographies, véritables produits et textes officiels sont à ajouter après validation des créateurs.
+
+Pour prévisualiser cette version, servir `dist/` à l'aide d'un serveur statique local. Les changements de cette branche ne sont pas automatiquement publiés sur ChatGPT Sites ni sur un hébergement public.
